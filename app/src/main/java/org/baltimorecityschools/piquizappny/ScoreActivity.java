@@ -26,7 +26,7 @@ public class ScoreActivity extends AppCompatActivity {
         score=0;
         welcomeToSA = getIntent();
         score = welcomeToSA.getIntExtra("score", 0);
-        scoreTV.setText("" + score);
+        scoreTV.setText(" " + score + " ");
 
     }
 }
